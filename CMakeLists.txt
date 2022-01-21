@@ -18,6 +18,6 @@ set(EEPROM_DIRECTORY
 
 set(EEPROM_SOURCES
         ${I2C_POLLING_SOURCES}
-        ${EEPROM_SOURCE_DIR}/FlashMemory.c
-        ${EEPROM_SOURCE_DIR}/include/FlashMemory.h
+        ${EEPROM_SOURCE_DIR}/EEPROM_I2C.c
+        ${EEPROM_SOURCE_DIR}/include/EEPROM_I2C.h
         CACHE STRING "EEPROM source files include to the main project" FORCE)

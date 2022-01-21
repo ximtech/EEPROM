@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 #include "I2C_Polling.h"
 
 #ifndef EEPROM_TIMEOUT_MS
